@@ -2,7 +2,6 @@
    Author: Atish Jain
    IDE: C-Free 5.0
    Task: Calculates Total & Average marks */
-# include <stdio.h>
 
 # include <stdio.h>
 main()
