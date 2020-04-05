@@ -1,6 +1,6 @@
 /* Program name:ascex1.c
    Author: Atish Jain
-   Task: Read character input and print its ascii code
+   Task: Read character input and print its ascii code.
 */
 
 # include <stdio.h>
