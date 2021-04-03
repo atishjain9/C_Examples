@@ -6,23 +6,24 @@
 # include <stdio.h>
 main()
 {
-	char gen,ms;
+	char gen,name[50];
 	int age;
 	
-	printf("Enter ur Gender(m/f):");
-	fflush(stdin);
+	
+	printf("Enter ur First Name....:");
+	scanf("%s",&name);
+	printf("Enter ur Age...:");
+	scanf("%d",&age);
+	printf("Enter ur Gender(M/F):");
+	fflush(stdin); //cleans the kb buffer
 	scanf("%c",&gen);
 	
-	printf("Enter ur age:");
-	scanf("%d",&age);
 	
-	printf("Enter ur Marital status([m]arried/[u]nmarried):");
-	fflush(stdin);
-	scanf("%c",&ms);
-	
-	printf("\nGender:%c",gen);
-	printf("\nAge:%d",age);
-	printf("\nMarital:%c",ms);
+	printf("\n\nYour Details are:");
+	printf("\n--------------------");
+	printf("\nName: %s",name);
+	printf("\nAge: %d",age);
+	printf("\nGender: %c",gen);
 	
 	printf("\n");
 }
