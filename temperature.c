@@ -11,7 +11,7 @@ main()
 	printf("Enter Tempreature in fahrenheit:");
 	scanf("%f",&fh);
 	
-	c=(fh-32)*5/9;
+	c=(fh-32)*5/9.0;
 	
 	printf("Temperature in Celsius is:%f",c);
 	
