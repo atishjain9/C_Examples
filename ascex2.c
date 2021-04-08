@@ -6,12 +6,11 @@
 # include <stdio.h>
 main()
 {
-	int x;
-	
-	printf("Enter ASCII code(0-255):");
-	scanf("%d",&x);
-	
-	printf("ASCII Character for %d is %c",x,x);
-	
-	printf("\n");
+  int x;
+  printf("Enter ASCII Code(0-255):");
+  scanf("%d",&x);
+  
+  printf("ASCII character of %d is %c",x,x);
+
+ printf("\n");
 }
