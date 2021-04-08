@@ -1,30 +1,32 @@
-/* Program name: avg.c
-   Author: Atish Jain
-   IDE: C-Free 5.0
-   Task: Calculates Total & Average marks */
+/*
+ Program name: avg.c
+ Author: Atish Jain
+ IDE: C-Free 5.0
+ Task: Calculates Total & Average marks 
+*/
 
 # include <stdio.h>
 main()
 {
-	int mat,phy,che;
+	int m,p,c;
 	float tot,avg;
+	m=p=c=tot=avg=0;
 	
-	printf("Enter marks for Maths:");
-	scanf("%d",&mat);
+	printf("Enter Maths Marks:");
+	scanf("%d",&m);
 	
-	printf("Enter marks for Physics:");
-	scanf("%d",&phy);
+	printf("Enter Physics Marks:");
+	scanf("%d",&p);
 	
-	printf("Enter marks for Chemistry:");
-	scanf("%d",&che);
+	printf("Enter Chemistry Marks:");
+	scanf("%d",&c);
 	
-	
-	tot=mat+phy+che;
-	
+	tot=m+p+c;
 	avg=tot/3;
 	
 	printf("\nTotal is:%.0f",tot);
-	printf("\nAverage is:%.2f",avg);
+	printf("\nAverage is:%.2f %%",avg);
+	
 	printf("\n");
 	
 }
