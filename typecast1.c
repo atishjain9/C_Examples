@@ -6,11 +6,19 @@
 # include <stdio.h>
 main()
 {
-	int a=5, b=2;
-	float c=0;
-	
-	c=(float)a/b;
-	
-	printf("%f",c);
-	printf("\n");
+ //implicit type casting
+ int x=12;
+ float y=x;
+ 
+ printf("\ny=%f",y);
+ 
+ char ch=100;
+ printf("\nch=%c",ch);	
+ 
+ //Assigning Higher type to lower type
+ double d=123.90;
+ int a=d;
+ printf("\na=%d",a);
+ 
+ printf("\n");
 }
