@@ -6,49 +6,61 @@
 # include <stdio.h>
 main()
 {
-	// model 1: \n
-	printf("Welcome\n");
-	printf("Programmers");
+ //1.Woring with \n
+ //Method 1
+ printf("Welcome");
+ printf("Programmers");	
+ 
+ printf("\n");
+ 
+ //Method 2
+ printf("Welcome");
+ printf("\nProgrammers");
 
-    printf("\n");
-	// model 2: \n
-	printf("Welcome");
-	printf("\nProgrammers");
+ printf("\n");
 
-    printf("\n");	
-	
-	// model 2: \n
-	printf("Welcome\nProgrammers");
+ //Method 3
+ printf("Welcome\n");
+ printf("Programmers");
 
 
-    printf("\n");
-    // about \t
-	printf("Atish   Jain");	
-	printf("\nWelcome\tAtish");
-	printf("\nAtish\tJain");
-   
-   
-    printf("\n");
-    //about \b
-    printf("Atish\bJain");
-    printf("Atish\b\b\b\bJain");    
+ //Method 4
+ printf("\nWelcome\nProgrammers");
+ 
+ 
+ printf("\n");
 
-    printf("\n");
-    //about \r
-    printf("Atish\rJain");
-    printf("Welcome\rAtish");    
+ //2.Woring with \t
+ 
+ printf("Atish\t\tJain");
+ 
+ printf("\n");
+ 
+ //3.Woring with \b
 
-    printf("\n");
-    /* about \\ */
-    printf("\\n is used for new line");
-    
-    printf("\n");
-    //about \' and \"
-    printf("\nI Am Learning \"C Programming\" from \'Atish\' Jain Sir");
+ printf("Atish\bJain");
+ printf("\nAtish\b\b\b\bJain"); 
 
-    printf("\n");   
-    //about \a
-    printf("\nAtish\aJain");
-  
-   printf("\n");
+ //4.Woring with \r
+ printf("\n");
+ 
+ printf("Coding\rCareer");
+ printf("\nAtish\rRaj Jain");
+ printf("\nAtish\rJain");
+ 
+ //5.Woring with \\
+ printf("\n");
+ 
+ printf("Heyy My Name is Naveen and My files are Stored in e:\\naveen folder");
+ printf("\nHeyy Myself Tarun, and My Bio Data is Stored at d:\\tarun Folder");
+ 
+ //6 & 7 Working with " and '
+ printf("\nHeyy I am Learning \"C Programming\" from \'Atish Jain\' Sir");
+ 
+ //Working with \a for alert sound
+ 
+ printf("\n\n\aInvalid Option input....\a");
+ printf("\a\a\a\a\a\a");
+ 
+ printf("\n");
 }
