@@ -7,16 +7,17 @@
 main()
 {
 	int r;
-	float a;
-	const float PI=3.14;
+	float area;
+	const float PI;
 	
-	printf("Enter Radius:");
+	printf("Enter Radius....:");
 	scanf("%d",&r);
 	
-	a=PI*r*r;
 	
-	printf("Area of circle is:%f",a);
-		
-	printf("\n");
+	area=PI*r*r;
+	
+	printf("Area of Circle is:%f",area);
+	
+ printf("\n");
 	
 }
