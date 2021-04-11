@@ -6,10 +6,10 @@
 # include <stdio.h>
 main()
 {
-	int a;
-    char b='a';
-    a=b; // implicit conversion
-    printf("a=%d",a);
-
-	printf("\n");
+ int a=5,b=2;
+ float c=0;
+ 
+ c=a/(float)b;  //explicit typecasting
+ printf("c=%f",c);
+ printf("\n");
 }
