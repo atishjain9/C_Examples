@@ -6,12 +6,16 @@
 # include <stdio.h>
 main()
 {
-   int  i = 100;
-   char c = 'c'; 
-   int sum;
-
-   sum = i + c;
-   printf("Value of sum : %d\n", sum );
-
-   printf("\n");
+ int a;
+ char b='a';
+ a=b;
+ printf("\na=%d",a);
+ 
+ int x='A';
+ printf("\nx=%d",x);
+ 
+ char c=99;
+ printf("\nc=%c",c);
+ 
+ printf("\n");
 }
